@@ -1,5 +1,5 @@
 # gdxq
-
+基于uniapp，uview等框架
 ## Project setup
 ```
 npm install
