@@ -1,0 +1,113 @@
+{
+    "name": "西安中童儿童康复医院",
+    "appid": "__UNI__8AA8302",
+    "description": "西安中童儿童康复医院",
+    "versionName": "2.0",
+    "versionCode": 15,
+    "transformPx": false,
+    "uniStatistics": {
+        "enable": false //全局关闭统计 
+    },
+    "app-plus": {
+        /* 5+App特有相关 */
+        "modules": {
+            "Payment": {}
+        },
+        /* 模块配置 */
+        "distribute": {
+            /* 应用发布信息 */
+            "android": {
+                /* android打包配置 */
+                "permissions": [
+                    "<uses-feature android:name=\"android.hardware.camera\"/>",
+                    "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+                    "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+                    "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+                    "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+                    "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+                    "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+                    "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+                    "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+                    "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+                    "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+                    "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+                ]
+            },
+            "ios": {},
+            // /* ios打包配置 */
+            "sdkConfigs": {
+                "payment": {
+                    "weixin": {
+                        "appid": "wx97a12acf24ba2ded"
+                    },
+                    "alipay": {
+                        "scheme": ""
+                    }
+                }
+            }
+        },
+        "splashscreen": {
+            "waiting": true
+        }
+    },
+    /* SDK配置 */
+    "quickapp": {},
+    /* 快应用特有相关 */
+    "mp-weixin": {
+        "appid": "wxf81b2ad64f0ff0a0",
+        "setting": {
+            "urlCheck": true,
+            "postcss": true,
+            "minified": true,
+            "es6": true
+        },
+        "permission": {
+            "scope.userLocation": {
+                "desc": "用于获取您附近的门店列表"
+            }
+        }
+    },
+    "h5": {
+        "title": "孤独星球",
+        "domain": "http://m.yijiaobao.com.cn/",
+        "router": {
+            "base": "hole",
+            "mode": "history"
+        },
+        "template": "index.html",
+        "sdkConfigs": {
+            "maps": {
+                "qqmap": {
+                    "key": "AEIBZ-H5TRI-A6VGA-5KRNA-QKKK6-JGB33"
+                }
+            }
+        }
+    },
+    "mp-toutiao": {
+        "setting": {
+            "es6": true,
+            "postcss": true,
+            "minified": true
+        },
+        "appid": "wx3eabe4ba003e5262"
+    },
+    "mp-qq": {
+        "setting": {
+            "es6": true,
+            "postcss": true,
+            "minified": true
+        }
+    }
+}

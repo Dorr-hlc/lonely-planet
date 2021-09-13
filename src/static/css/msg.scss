@@ -1,0 +1,499 @@
+                .container {
+                    // padding-bottom: 120rpx;
+                    .contain {
+                        width: 100%;
+                        background: #f7f9fa;
+                        padding-top: 32rpx;
+                        padding-bottom: 16rpx;
+                        box-sizing: border-box;
+                        .checkbtn {
+                            display: flex;
+                            margin-left: 32rpx;
+                            .active {
+                                width: 345rpx;
+                                height: 96rpx;
+                                background: #ffffff;
+                                border: 1px solid #bfc3c8;
+                                font-size: 32rpx;
+                                font-weight: bold;
+                                color: #609effff;
+                                line-height: 32rpx;
+                                text-align: center;
+                                padding-top: 32rpx;
+                            }
+                            .no {
+                                width: 345rpx;
+                                height: 96rpx;
+                                background: #ffffff;
+                                border: 1px solid #bfc3c8;
+                                font-size: 32rpx;
+                                font-weight: bold;
+                                color: #888d91ff;
+                                line-height: 32rpx;
+                                text-align: center;
+                                padding-top: 32rpx;
+                            }
+                             :nth-child(1) {
+                                border-right: 0;
+                                border-radius: 10rpx 0 0 10rpx;
+                            }
+                             :nth-child(2) {
+                                border-radius: 0 10rpx 10rpx 0rpx;
+                            }
+                        }
+                        // 回复我的
+                        .other_review {
+                            padding-bottom: 120rpx;
+                            .content {
+                                width: 686rpx;
+                                background: #ffffff;
+                                border-radius: 10rpx;
+                                margin: 32rpx;
+                                padding-bottom: 16rpx;
+                                .userinfo {
+                                    margin-left: 24rpx;
+                                    display: flex;
+                                    .nicknum {
+                                        font-size: 30rpx;
+                                        font-weight: bold;
+                                        color: #333333;
+                                        line-height: 30rpx;
+                                        padding-top: 32rpx;
+                                    }
+                                    .fontcolor {
+                                        color: #fe684fff;
+                                    }
+                                    .orreview {
+                                        font-size: 26rpx;
+                                        font-weight: 400;
+                                        color: #666666;
+                                        line-height: 26rpx;
+                                        margin-top: 36rpx;
+                                        margin-left: 20rpx;
+                                    }
+                                    .reviewbtn {
+                                        width: 107rpx;
+                                        height: 44rpx;
+                                        background: #609eff;
+                                        border-radius: 22rpx;
+                                        font-size: 26rpx;
+                                        font-weight: 400;
+                                        color: #ffffff;
+                                        text-align: center;
+                                        padding-top: 4rpx;
+                                        margin-left: 167rpx;
+                                        margin-top: 25rpx;
+                                    }
+                                }
+                                .reviewtime {
+                                    font-size: 24rpx;
+                                    font-weight: 400;
+                                    color: #a0a5aa;
+                                    line-height: 24rpx;
+                                    margin-left: 24rpx;
+                                    margin-top: 10rpx;
+                                }
+                                .reviewcontent {
+                                    font-size: 30rpx;
+                                    font-weight: 400;
+                                    color: #333333;
+                                    line-height: 48rpx;
+                                    margin: 23rpx 0 0 24rpx;
+                                }
+                                .post {
+                                    width: 638rpx;
+                                    background: #f7f9fa;
+                                    border-radius: 6rpx;
+                                    padding: 20rpx 0rpx;
+                                    margin: 17rpx 24rpx 0rpx 24rpx;
+                                    .text {
+                                        font-size: 28rpx;
+                                        font-weight: 400;
+                                        color: #444444;
+                                        line-height: 42rpx;
+                                        margin-left: 24rpx;
+                                    }
+                                    .pic {
+                                        white-space: nowrap;
+                                        display: inline-block;
+                                        width: 186rpx;
+                                        height: 136rpx;
+                                        margin: 17rpx 0 32rpx 24rpx;
+                                        border-radius: 8rpx;
+                                        .mypic {
+                                            width: 186rpx;
+                                            height: 136rpx;
+                                        }
+                                    }
+                                }
+                                .reviews {
+                                    margin-left: 24rpx;
+                                    .own {
+                                        .line {
+                                            width: 638rpx;
+                                            height: 1rpx;
+                                            border-bottom: 1rpx dashed #dcdee0;
+                                            margin: 32rpx 0rpx 0rpx 0rpx;
+                                        }
+                                        .info {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            .left {
+                                                display: flex;
+                                                .name {
+                                                    font-size: 30rpx;
+                                                    font-weight: 400;
+                                                    color: #333333FF;
+                                                    line-height: 30rpx;
+                                                    margin-top: 32rpx;
+                                                }
+                                                .main {
+                                                    color: #FE684FFF;
+                                                }
+                                                .logo {
+                                                    width: 48rpx;
+                                                    height: 28rpx;
+                                                    background: #ffb145;
+                                                    border-radius: 5rpx;
+                                                    font-size: 20rpx;
+                                                    font-weight: 400;
+                                                    color: #ffffff;
+                                                    line-height: 20rpx;
+                                                    margin-top: 33rpx;
+                                                    margin-left: 16rpx;
+                                                    text-align: center;
+                                                    padding-top: 3rpx;
+                                                }
+                                                .time {
+                                                    font-size: 24rpx;
+                                                    font-weight: 400;
+                                                    color: #a0a5aa;
+                                                    line-height: 24rpx;
+                                                    margin-top: 35rpx;
+                                                    margin-left: 40rpx;
+                                                }
+                                            }
+                                            .right {
+                                                padding-top: 30rpx;
+                                                .mybtn {
+                                                    font-size: 24rpx;
+                                                    font-weight: 400;
+                                                    color: #a0a5aa;
+                                                    line-height: 24rpx;
+                                                    margin-right: 24rpx;
+                                                    .reviewbtn {
+                                                        width: 35rpx;
+                                                        height: 30rpx;
+                                                        margin-right: 10rpx;
+                                                        vertical-align: middle;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .review {
+                                            font-size: 30rpx;
+                                            font-weight: 400;
+                                            color: #444444;
+                                            line-height: 48rpx;
+                                            margin-top: 26rpx;
+                                        }
+                                        //高度自适应，全部显示
+                                        .active {
+                                            height: auto;
+                                            overflow: visible;
+                                        }
+                                    }
+                                    .getmore {
+                                        font-size: 26rpx;
+                                        color: #609eff;
+                                        line-height: 26rpx;
+                                        margin-top: 20rpx;
+                                    }
+                                    .readmore {
+                                        font-size: 26rpx;
+                                        color: #609eff;
+                                        line-height: 26rpx;
+                                        margin-top: 20rpx;
+                                        .up {
+                                            width: 30rpx;
+                                            height: 30rpx;
+                                            transform-style: preserve-3d;
+                                            transform: rotateX(180deg);
+                                            vertical-align: middle;
+                                        }
+                                        .down {
+                                            width: 30rpx;
+                                            height: 30rpx;
+                                            vertical-align: middle;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // 我的回复
+                        .mine_review {
+                            padding-bottom: 120rpx;
+                            .content {
+                                width: 686rpx;
+                                background: #ffffff;
+                                border-radius: 10rpx;
+                                margin: 32rpx;
+                                padding-bottom: 16rpx;
+                                .userinfo {
+                                    margin-left: 24rpx;
+                                    display: flex;
+                                    .nicknum {
+                                        font-size: 30rpx;
+                                        font-weight: bold;
+                                        color: #333333;
+                                        line-height: 30rpx;
+                                        padding-top: 32rpx;
+                                    }
+                                    .fontcolor {
+                                        color: #fe684fff;
+                                    }
+                                    .logo {
+                                        .mine {
+                                            width: 25rpx;
+                                            height: 25rpx;
+                                            margin-top: 35rpx;
+                                            margin-left: 16rpx;
+                                        }
+                                    }
+                                    .orreview {
+                                        font-size: 26rpx;
+                                        font-weight: 400;
+                                        color: #666666;
+                                        line-height: 26rpx;
+                                        margin-top: 36rpx;
+                                        margin-left: 20rpx;
+                                    }
+                                    .reviewbtn {
+                                        width: 107rpx;
+                                        height: 44rpx;
+                                        background: #609eff;
+                                        border-radius: 22rpx;
+                                        font-size: 26rpx;
+                                        font-weight: 400;
+                                        color: #ffffff;
+                                        text-align: center;
+                                        padding-top: 4rpx;
+                                        margin-left: 167rpx;
+                                        margin-top: 25rpx;
+                                    }
+                                }
+                                .reviewtime {
+                                    font-size: 24rpx;
+                                    font-weight: 400;
+                                    color: #a0a5aa;
+                                    line-height: 24rpx;
+                                    margin-left: 24rpx;
+                                    margin-top: 10rpx;
+                                }
+                                .reviewcontent {
+                                    font-size: 30rpx;
+                                    font-weight: 400;
+                                    color: #333333;
+                                    line-height: 48rpx;
+                                    margin: 23rpx 0 0 24rpx;
+                                }
+                                .post {
+                                    width: 638rpx;
+                                    background: #f7f9fa;
+                                    border-radius: 6rpx;
+                                    margin: 17rpx 24rpx 0rpx 24rpx;
+                                    .text {
+                                        font-size: 28rpx;
+                                        font-weight: 400;
+                                        color: #444444;
+                                        line-height: 42rpx;
+                                        padding: 25rpx 0rpx;
+                                        margin-left: 24rpx;
+                                    }
+                                    .pic {
+                                        white-space: nowrap;
+                                        display: inline-block;
+                                        width: 186rpx;
+                                        height: 136rpx;
+                                        margin: 17rpx 0 32rpx 24rpx;
+                                        border-radius: 8rpx;
+                                        .mypic {
+                                            width: 186rpx;
+                                            height: 136rpx;
+                                        }
+                                    }
+                                }
+                                .reviews {
+                                    margin-left: 24rpx;
+                                    .own {
+                                        .line {
+                                            width: 638rpx;
+                                            height: 1rpx;
+                                            border-bottom: 1px dashed #dcdee0;
+                                            margin: 32rpx 0 0 0;
+                                        }
+                                        .info {
+                                            display: flex;
+                                            justify-content: space-between;
+                                            box-sizing: border-box;
+                                            margin-top: 32rpx;
+                                            .left {
+                                                display: flex;
+                                                .name {
+                                                    font-size: 30rpx;
+                                                    font-weight: 400;
+                                                    color: #333333ff;
+                                                    line-height: 30rpx;
+                                                }
+                                                .main {
+                                                    color: #FE684FFF;
+                                                }
+                                                .logo {
+                                                    width: 48rpx;
+                                                    height: 28rpx;
+                                                    background: #ffb145;
+                                                    border-radius: 5rpx;
+                                                    font-size: 20rpx;
+                                                    font-weight: 400;
+                                                    color: #ffffff;
+                                                    line-height: 20rpx;
+                                                    margin-left: 16rpx;
+                                                    text-align: center;
+                                                    padding-top: 3rpx;
+                                                }
+                                                .time {
+                                                    font-size: 24rpx;
+                                                    font-weight: 400;
+                                                    color: #a0a5aa;
+                                                    line-height: 24rpx;
+                                                    margin-left: 40rpx;
+                                                }
+                                            }
+                                            .right {
+                                                .mybtn {
+                                                    font-size: 24rpx;
+                                                    font-weight: 400;
+                                                    color: #a0a5aa;
+                                                    line-height: 24rpx;
+                                                    margin-right: 24rpx;
+                                                    .reviewbtn {
+                                                        width: 35rpx;
+                                                        height: 30rpx;
+                                                        margin-right: 10rpx;
+                                                        vertical-align: middle;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                        .review {
+                                            font-size: 30rpx;
+                                            font-weight: 400;
+                                            color: #444444;
+                                            line-height: 48rpx;
+                                            margin-top: 17rpx;
+                                        }
+                                        //高度自适应，全部显示
+                                        .active {
+                                            height: auto;
+                                            overflow: visible;
+                                        }
+                                    }
+                                    .getmore {
+                                        font-size: 26rpx;
+                                        color: #609eff;
+                                        line-height: 26rpx;
+                                        margin-top: 20rpx;
+                                    }
+                                    .readmore {
+                                        font-size: 26rpx;
+                                        font-family: PingFangSC-Regular, PingFang SC;
+                                        font-weight: 400;
+                                        color: #609eff;
+                                        line-height: 26rpx;
+                                        margin-top: 20rpx;
+                                        .up {
+                                            width: 30rpx;
+                                            height: 30rpx;
+                                            transform-style: preserve-3d;
+                                            transform: rotateX(180deg);
+                                            vertical-align: middle;
+                                        }
+                                        .down {
+                                            width: 30rpx;
+                                            height: 30rpx;
+                                            vertical-align: middle;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .pop {
+                            position: relative;
+                            .ipt {
+                                font-size: 28rpx;
+                                font-weight: 400;
+                                color: #333333;
+                                line-height: 28rpx;
+                                margin-top: 32rpx;
+                                margin-left: 32rpx;
+                            }
+                            .surebtn {
+                                position: absolute;
+                                right: -200rpx;
+                                bottom: 0;
+                                font-size: 32rpx;
+                                font-weight: 400;
+                                color: #66a1ff;
+                                line-height: 32rpx;
+                                margin-bottom: 54rpx;
+                            }
+                        }
+                    }
+                }
+                
+                .moretext1 {
+                    margin-top: 300rpx;
+                }
+                
+                .moretext2 {
+                    margin-top: 100rpx;
+                }
+                
+                .null {
+                    width: 100%;
+                    height: 1200rpx;
+                    .nullpic {
+                        width: 420rpx;
+                        height: 420rpx;
+                        margin-left: 200rpx;
+                        padding-top: 100rpx;
+                    }
+                }
+                
+                .pop {
+                    width: 520rpx;
+                    .pic {
+                        width: 38rpx;
+                        height: 38rpx;
+                        margin-left: 241rpx;
+                        padding-top: 62rpx;
+                    }
+                    .text1 {
+                        width: 336rpx;
+                        font-size: 28rpx;
+                        font-weight: 400;
+                        color: #333333;
+                        line-height: 42rpx;
+                        text-align: center;
+                        margin: 0 auto;
+                        margin-top: 34rpx;
+                        .num {
+                            color: #44C074FF;
+                        }
+                    }
+                    .wave {
+                        margin: 60rpx 0rpx;
+                        width: 521rpx;
+                        height: 59rpx;
+                    }
+                }

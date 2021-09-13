@@ -1,0 +1,304 @@
+        .contain {
+            width: 100%;
+            overflow-x: hidden;
+            font-family: '微软雅黑';
+            background: #ffffffff;
+            padding: 16rpx 0 120rpx 0;
+            box-sizing: border-box;
+            .post {
+                width: 686rpx;
+                background: #ffffff;
+                border-radius: 10rpx;
+                margin-left: 32rpx;
+                .userinfo {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 32rpx;
+                    .avatar {
+                        image {
+                            width: 80rpx;
+                            height: 80rpx;
+                        }
+                    }
+                    .rightinfo {
+                        .top {
+                            display: flex;
+                            margin-left: 18rpx;
+                            .number {
+                                font-size: 30rpx;
+                                font-weight: bold;
+                                color: #333333ff;
+                                line-height: 30rpx;
+                            }
+                            .main {
+                                color: #fe684fff;
+                            }
+                            .logo {
+                                width: 60rpx;
+                                height: 28rpx;
+                                background: linear-gradient(225deg, #ffe13a 0%, #ff8642 100%);
+                                border-radius: 10rpx 0rpx 10rpx 0rpx;
+                                font-size: 22rpx;
+                                font-family: Helvetica;
+                                color: #ffffff;
+                                line-height: 28rpx;
+                                text-align: center;
+                                padding-top: 3rpx;
+                                margin-left: 37rpx;
+                            }
+                        }
+                        .release {
+                            font-size: 24rpx;
+                            font-weight: 400;
+                            color: #a0a5aa;
+                            line-height: 24rpx;
+                            margin-left: 18rpx;
+                            margin-top: 14rpx;
+                        }
+                    }
+                }
+                .content {
+                    margin-top: 19rpx;
+                    font-size: 30rpx;
+                    color: #333333;
+                    line-height: 48rpx;
+                }
+                .upimg {
+                    display: inline-block;
+                    white-space: nowrap;
+                    .one {
+                        width: 432rpx;
+                        height: 320rpx;
+                        border-radius: 8rpx;
+                    }
+                    .three {
+                        width: 210rpx;
+                        height: 203rpx;
+                        border-radius: 8rpx;
+                        margin-right: 16rpx;
+                    }
+                }
+                .bottom {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 32rpx 0rpx;
+                    .comment {
+                        display: flex;
+                        .xiaoxi {
+                            width: 38rpx;
+                            height: 38rpx;
+                        }
+                        .commentnum {
+                            font-size: 24rpx;
+                            font-family: Helvetica;
+                            color: #333333;
+                            line-height: 24rpx;
+                            margin-left: 3rpx;
+                        }
+                    }
+                }
+            }
+            .allreplay {
+                display: flex;
+                justify-content: space-between;
+                width: 750rpx;
+                height: 80rpx;
+                background: #f2f4f5;
+                .text {
+                    font-size: 32rpx;
+                    font-weight: bold;
+                    color: #333333;
+                    line-height: 32rpx;
+                    margin: 24rpx 32rpx 0 24rpx;
+                }
+                .shrink {
+                    margin: 22rpx 43rpx 0rpx 0rpx;
+                    .paixu {
+                        width: 40rpx;
+                        height: 40rpx;
+                    }
+                }
+            }
+            .replay {
+                height: auto;
+                margin-left: 32rpx;
+                .rbox {
+                    margin-top: 40rpx;
+                    .replay_header {
+                        display: flex;
+                        height: 30rpx;
+                        justify-content: space-between;
+                        .nickname {
+                            font-size: 30rpx;
+                            font-weight: bold;
+                            color: #333333ff;
+                            line-height: 30rpx;
+                            .micon {
+                                margin-left: 16rpx;
+                                vertical-align: middle;
+                            }
+                        }
+                        .point {
+                            margin-right: 32rpx;
+                        }
+                        .main {
+                            color: #FE684FFF;
+                        }
+                    }
+                    .replaytime {
+                        font-size: 24rpx;
+                        font-weight: 400;
+                        color: #a0a5aa;
+                        line-height: 24rx;
+                        padding-top: 16rpx;
+                    }
+                    .content {
+                        font-size: 30rpx;
+                        font-weight: 400;
+                        color: #333333;
+                        line-height: 48rpx;
+                        margin: 23rpx 32rpx 0rpx 56rpx;
+                    }
+                    .replaycontent {
+                        width: 630rpx;
+                        background: #f7f9fa;
+                        border-radius: 6rpx;
+                        padding-top: 30rpx;
+                        margin: 15rpx 32rpx 0rpx 56rpx;
+                        .owner {
+                            margin-left: 24rpx;
+                            .name {
+                                display: flex;
+                                align-items: center;
+                                padding-bottom: 24rpx;
+                                text {
+                                    font-size: 30rpx;
+                                    font-weight: 400;
+                                    color: #333333;
+                                    line-height: 30rpx;
+                                }
+                                .main {
+                                    color: #fe684fff;
+                                }
+                                .logo {
+                                    width: 48rpx;
+                                    height: 28rpx;
+                                    background: #ffb145;
+                                    border-radius: 5rpx;
+                                    font-size: 20rpx;
+                                    color: #ffffff;
+                                    line-height: 28rpx;
+                                    text-align: center;
+                                    margin-left: 16rpx;
+                                }
+                                .micon {
+                                    margin-left: 16rpx;
+                                }
+                                .time {
+                                    font-size: 24rpx;
+                                    color: #a0a5aa;
+                                    line-height: 24rpx;
+                                    margin-left: 34rpx;
+                                }
+                            }
+                            .rcontent {
+                                font-size: 28rpx;
+                                color: #666666;
+                                line-height: 28rpx;
+                                padding-bottom: 30rpx;
+                            }
+                        }
+                    }
+                    .getmore {
+                        font-size: 26rpx;
+                        font-weight: 400;
+                        color: #609eff;
+                        line-height: 26rpx;
+                        margin-left: 20rpx;
+                        padding: 10rpx 0;
+                    }
+                    .readmore {
+                        font-size: 26rpx;
+                        font-weight: 400;
+                        color: #609eff;
+                        line-height: 26rpx;
+                        margin-left: 20rpx;
+                        padding-bottom: 30rpx;
+                        .up {
+                            width: 30rpx;
+                            height: 30rpx;
+                            transform-style: preserve-3d;
+                            transform: rotateX(180deg);
+                            vertical-align: middle;
+                        }
+                        .down {
+                            width: 30rpx;
+                            height: 30rpx;
+                            vertical-align: middle;
+                        }
+                    }
+                }
+            }
+            .no {
+                margin-bottom: 200rpx;
+                .noimg {
+                    width: 500rpx;
+                    height: 500rpx;
+                    .nomore {
+                        margin: 100rpx 250rpx;
+                        width: 300rpx;
+                        height: 200rpx;
+                    }
+                    .text {
+                        width: 100rpx;
+                        font-size: 30rpx;
+                        color: #000;
+                        margin-left: 320rpx;
+                    }
+                }
+            }
+            .moretext1 {
+                margin-top: 300rpx;
+            }
+            .moretext2 {
+                margin-top: 100rpx;
+            }
+            .review {
+                position: fixed;
+                bottom: 0;
+                display: flex;
+                width: 100%;
+                height: 88rpx;
+                background: #FFFFFF;
+                z-index: 999;
+                .iptvalue {
+                    margin-top: 12rpx;
+                    margin-left: 32rpx;
+                    input {
+                        width: 370rpx;
+                        height: 64rpx;
+                        background: #f2f4f5;
+                        border-radius: 32rpx;
+                        font-size: 26rpx;
+                        font-weight: 400;
+                        color: #8b9094;
+                        line-height: 26rpx;
+                        box-sizing: border-box;
+                        padding-left: 32rpx;
+                    }
+                }
+                .send {
+                    width: 160rpx;
+                    height: 64rpx;
+                    background: #609eff;
+                    border-radius: 32rpx;
+                    font-size: 30rpx;
+                    color: #ffffff;
+                    line-height: 30rpx;
+                    text-align: center;
+                    padding-top: 17rpx;
+                    margin-top: 12rpx;
+                    margin-left: 156rpx;
+                }
+            }
+        }

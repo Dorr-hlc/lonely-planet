@@ -1,0 +1,46 @@
+{
+    "easycom": {
+        "^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+    },
+    "pages": [{
+            "path": "pages/index/index",
+            "style": {
+                "navigationBarTitleText": "树洞广场",
+                "enablePullDownRefresh": true
+            }
+
+        },
+        {
+            "path": "pages/user/index",
+            "style": {
+                "navigationBarTitleText": "消息中心",
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": true
+            }
+
+
+        },
+        {
+            "path": "pages/add/add",
+            "style": {
+                "navigationBarTitleText": "树洞广场"
+
+            }
+
+        },
+        {
+            "path": "pages/detail/detail",
+            "style": {
+                "navigationBarTitleText": "话题详情",
+                "enablePullDownRefresh": true
+            }
+
+        }
+    ],
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "孤独星球",
+        "navigationBarBackgroundColor": "#fff",
+        "backgroundColor": "#F5F7FAFF"
+    }
+}
